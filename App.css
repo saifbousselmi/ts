@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+}
+
+.component-container {
+  display: flex;
+  flex-direction: column; /* Stack components vertically */
+  align-items: center; /* Center components horizontally */
+  gap: 20px; /* Space between components */
+  padding: 20px; /* Add padding around the container */
+  border: 1px solid #ccc; /* Optional: add a border */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+  font-size: 20px;
+}
